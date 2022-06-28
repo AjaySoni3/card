@@ -1,0 +1,17 @@
+.card-box {
+  /* background: rgb(177, 29, 29); */
+  display: flex;
+  justify-content: space-between;
+}
+
+.right-card {
+  width: 30%;
+}
+
+.left-card {
+  display: flex;
+  flex-direction: row;
+  display: grid;
+  grid-template-rows: repeat(1fr, 3);
+  grid-template-columns: repeat(1fr, 3);
+}
